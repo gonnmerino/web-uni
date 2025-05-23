@@ -1,0 +1,173 @@
+.background-2 {
+    background-size: auto;
+    background-color: rgb(8, 8, 8);
+    background: linear-gradient(0deg, rgb(8, 8, 8) 93.1%, rgba(8, 8, 8, 1) 93%, rgba(8, 8, 8, 0.02) 100%);
+    z-index: 2;
+}
+h1 {
+    text-shadow: black 2px 2px 8px;
+    font-family: 'LibreBaskerville-bold';
+    text-align: center;
+    letter-spacing: 1rem;
+    padding-top: 1rem;
+    font-size: 2.2rem;
+    user-select: none;
+}
+h2{
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    font-family: 'LibreBaskerville-bold';
+    letter-spacing: 0.1rem;
+    user-select: none;
+    line-height: 1.5rem;
+}
+#frase{
+    font-family: 'BebasNeue-Regular';
+    color: rgb(255, 252, 238);
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    line-height: 2.2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    text-shadow: black 2px 2px 8px;
+    user-select: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.trailer{
+    text-decoration: none;
+    color:#c04215;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.08rem;
+    font-weight: bold;
+    text-shadow: black 2px 2px 8px;
+    align-items: center;
+}
+.trailer a:hover {
+    color: rgb(255, 252, 238);
+}
+.resumen-pelicula-texto {
+    text-align: center;
+        font-family: 'LibreBaskerville-bold';
+        text-shadow: black 2px 2px 8px;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom:0.5rem;
+    border-radius: 10px;
+    align-items: center;
+    border: 2px solid #c04215;
+}
+p {
+    padding: 0px 15px 15px 15px;
+}
+@media (min-width: 720px){
+	.container {
+        color: rgb(255, 252, 238);
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: space-between;
+        margin: 0px;
+        width: 100%;
+        flex-direction: row;
+        max-width: 100%;
+    }
+	h2 {
+        align-items: center;
+        text-align: center;
+        font-size: 0.9rem;
+        padding-left:18rem;
+        margin-inline-end: auto;
+        letter-spacing: 0.3rem;
+        line-height: 1.5rem;
+        margin-top: 0;
+    }
+    h1 {
+        align-items: center;
+        font-size: 4rem;
+        letter-spacing: 1rem;
+        margin-inline-end: auto;
+        padding-left: 3rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+	header nav{
+        flex-direction: row;
+        margin-inline-start:auto;
+        margin-right: 0px;
+        padding-right: 1.4rem;
+        position: relative;
+    }
+    #frase{
+        font-size: 4rem;
+        line-height: 4rem;
+        padding-top: 15rem;
+        width: 45rem;
+        margin-inline-start:auto;
+        padding-right: 5rem;
+        word-spacing: 6px;
+        text-align:left;
+    }
+    .trailer a {
+        letter-spacing: 0.08rem;
+        margin-inline-start:auto;
+        margin-right: 25rem;
+        margin-top: 1rem;
+    }
+    h3 {
+        font-family: 'LibreBaskerville-bold';
+        letter-spacing: 0.2rem;
+        text-shadow: black 2px 2px 8px;
+        font-size: 2rem;
+    }
+    .resumen-pelicula-texto {
+        flex: 1;
+        text-align: center;
+        font-family: 'LibreBaskerville-bold';
+        text-shadow: black 2px 2px 8px;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.3rem;
+        width: 55rem;
+        margin-left: 60px;
+    }
+    .resumen-pelicula-texto p{
+        text-align: left;
+    }
+    #resumen-pelicula {
+        display: grid;
+        grid-template-columns: 1fr 670px;
+        gap: 2rem;
+        align-items: end;
+        max-width: 100%;
+        height: auto;
+        margin-right: 60px;
+    }
+    .container-galeria {
+        margin-top: 25px;
+    }
+    .galeria {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        align-items: center;
+        border: 2px solid #c04215;
+    }
+    p {
+        padding: 0px;
+    }
+}   
